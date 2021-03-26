@@ -723,7 +723,7 @@ welcome
   justify-content: center;
   background-image: url(../images/banner-bg.png);
   background-repeat: no-repeat;
-/*
+  /*
 TRY IT ... with or without CENTER CENTER
   background-position: center center; 
 */
@@ -756,11 +756,11 @@ TRY IT ... with or without CENTER CENTER
 
 .welcome-area .header-text p {
   font-weight: 300;
-  font-size: 17px;
+  font-size: 30px;
   color: #fff;
-  line-height: 30px;
-  letter-spacing: 0.25px;
-  margin-bottom: 40px;
+  line-height: 55px;
+  letter-spacing: 1.5px;
+  margin: 0px 150px 40px 50px;
   position: relative;
 }
 
@@ -844,6 +844,10 @@ about
   border-bottom: 1px solid #eee;
 }
 
+#about .left-padding {
+  padding-left: 80px;
+}
+
 @media (max-width: 765px) {
   #about {
     padding: 20px 0px 120px 0px;
@@ -879,7 +883,7 @@ about
 #about p,
 #about2 p {
   margin-bottom: 30px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.5px;
 }
@@ -1177,12 +1181,84 @@ accordions
   padding-top: 0;
 }
 
+/*
+---------------------------------------------
+our doctors
+---------------------------------------------
+*/
+
+#doctors {
+  padding: 40px 0px;
+}
+
+@media (max-width: 765px) {
+  #doctors {
+    padding: 20px 0px 120px 0px;
+  }
+}
+
+#doctors .right-text {
+  align-self: center;
+}
+
+#doctors .right-text p {
+  margin-bottom: 40px;
+}
+
+#doctors h5 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e1e1e;
+  line-height: 40px;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+#doctors p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+.doc-header h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+  color: #232323;
+  /* margin-bottom: 20px; */
+}
+.doc-header p {
+  font-size: 17px;
+  color: #777;
+  text-align: center;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.doctor-row {
+  display: flex;
+  flex-direction: row;
+}
+.doc-img-left {
+  margin-right: 40px;
+}
+.doc-info-left {
+  border-right: 0.1px solid lightgrey;
+  padding-right: 10px;
+}
+.doc-info-right {
+  padding-left: 30px;
+}
 /* 
 ---------------------------------------------
 contact
 --------------------------------------------- 
 */
-
+#contact-us {
+  padding: 80px 0px;
+}
 #contact-us .container-fluid {
   padding-right: 0px;
   padding-left: 0px;

@@ -215,7 +215,10 @@ body {
     margin-bottom: 60px;
   }
 }
-
+.center-button {
+  margin-right: 150px;
+  text-align: center;
+}
 a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
@@ -760,7 +763,8 @@ TRY IT ... with or without CENTER CENTER
   color: #fff;
   line-height: 55px;
   letter-spacing: 1.5px;
-  margin: 0px 150px 40px 50px;
+  margin: 0px 150px 40px 0px;
+  text-align: center;
   position: relative;
 }
 

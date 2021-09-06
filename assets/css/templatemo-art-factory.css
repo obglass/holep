@@ -283,7 +283,13 @@ button.main-button:hover {
   font-size: 48px;
   font-weight: 300;
   color: #232323;
-  margin-bottom: 20px;
+}
+
+.section-heading h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #232323;
+  font-weight: 300;
 }
 
 .section-heading p {
@@ -734,8 +740,8 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/urinals1.jpg);
-  background-repeat: no-repeat;
+  /* background-image: url(../images/urinals6.jpg);
+  background-repeat: no-repeat; */
   /*
 TRY IT ... with or without CENTER CENTER
   background-position: center center; 
@@ -765,7 +771,7 @@ TRY IT ... with or without CENTER CENTER
 
 .welcome-area .header-text h1 {
   font-weight: 400;
-  font-size: 64px;
+  font-size: 54px;
   line-height: 80px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
@@ -851,6 +857,23 @@ TRY IT ... with or without CENTER CENTER
     margin-top: 20px;
   }
 }
+
+#image {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/urinals6c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 97vw;
+  height: 70vh;
+  margin-left: 1vw;
+  margin-top: -60vh;
+}
+
+
 
 /*
 ---------------------------------------------

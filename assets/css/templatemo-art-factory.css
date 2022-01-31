@@ -710,7 +710,7 @@ about
 ---------------------------------------------
 */
 
-.about-title {
+.about-title, .appt-title {
   margin-left: 3vw;
   margin-top: 2vh;
 }
@@ -719,6 +719,9 @@ about
   margin-bottom: 20px;
 }
 
+.centered-h2 {
+  text-align: center;
+}
 
 
 

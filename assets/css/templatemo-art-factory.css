@@ -629,12 +629,8 @@ hr {
   /* margin-top: 12vh; */
 }
 
-.welcome-area .header-text h1 {
-  font-weight: 400;
-}
-
 @media (min-width: 50px) {
-  .welcome-area .header-text h1 {
+  .index-title {
     font-size: 35px !important;
   }
   #image {
@@ -657,7 +653,7 @@ hr {
 }
 
 @media (min-width: 500px) {
-  .welcome-area .header-text h1 {
+  .index-title {
     font-size: 40px !important;
   }
   #image{
@@ -680,7 +676,7 @@ hr {
 }
 
 @media (min-width: 1200px) {
-  .welcome-area .header-text h1 {
+  .index-title {
     font-size: 55px !important;
   }
   #image {
@@ -710,15 +706,20 @@ about
 ---------------------------------------------
 */
 
-.about-title {
+.about-title, .appt-title, .index-title {
   margin-left: 3vw;
   margin-top: 2vh;
+  font-weight: 350;
+  margin-bottom: 2vh
 }
 
 .about-section p {
   margin-bottom: 20px;
 }
 
+.centered-h2 {
+  text-align: center;
+}
 
 
 

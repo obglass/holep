@@ -26,10 +26,10 @@
         <!-- ***** Header Area  ***** -->
         <div class="row">
             <div class="col-12 nav-col">
-                <div class="topnav">
-                    <a href="#" class="active">Home</a>
-                    <a href="about.html">About</a>
+                <div class="topnav" id="myTopnav">
                     <a href="appointment.html">Appointment</a>
+                    <a href="about.html">About</a>
+                    <a href="#" class="active">Home</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
                     </a>
@@ -59,21 +59,29 @@
         <div class="row">
             <div class="col-12">
                 <section class="section" id='questions'>
-                    <div class="container">
-                        <div class="section-heading">
-                            <h2> Tired of medications?</h2>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-heading">
+                                <h2> Tired of medications?</h2>
+                            </div>
                         </div>
-                        <br>
-                        <br>
-                        <div class="section-heading">
-                            <h2> Tried other BPH procedures?</h2>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-heading">
+                                <h2> Tried other BPH procedures?</h2>
+                            </div>
                         </div>
-                        <br>
-                        <br>
-                        <div class="section-heading">
-                            <h2> Ready to fix the problem once and for all?</h2>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-heading">
+                                <h2> Ready to fix the problem once and for all?</h2>
+                            </div>
                         </div>
-                    </div> 
+                    </div>
                 </section>
             </div>
         </div>
@@ -199,9 +207,9 @@
         function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
-            x.className += " responsive";
+                x.className += " responsive";
             } else {
-            x.className = "topnav";
+                x.className = "topnav";
             }
         }
     </script>

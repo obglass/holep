@@ -418,9 +418,9 @@ hr {
     justify-content: center;
     background-image: url(../images/webinar.jpg);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 100%;
     margin-left: 5vw;
-    height: 70vh;
+    height: 20vh;
   }
   #npr-image {
     overflow: hidden;
@@ -429,9 +429,9 @@ hr {
     justify-content: center;
     background-image: url(../images/restrooms.jpg);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 100%;
     margin-left: 5vw;
-    height: 65vh;
+    height: 20vh;
   }
   .press-info {
     margin-left: 5vw;

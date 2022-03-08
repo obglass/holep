@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/obglass/public_html/
+    - export DEPLOYPATH=/home/myx4ilgidq9y/public_html/
     - /bin/cp -R * $DEPLOYPATH
